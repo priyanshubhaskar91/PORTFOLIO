@@ -73,76 +73,60 @@
 </span></h6></div></div></div><div class="col-lg-1/4 col-md-1/2 "><div class="column-inner dorik-column-h7lck7bs  1/4"><div class="dorik-icon-oy233vxq-wrapper  "><span class="dorik-icon dorik-icon-oy233vxq  "><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="envelope" class="svg-inline--fa fa-envelope icon " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="font-size:30px;color:#FEE5B5" data-testid="icon-test"><path fill="currentColor" d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"></path></svg></span></div><div class="dorik-wrapper dorik-heading-hzfwiwtx-wrapper "><h6 class="dorik-heading dorik-heading-hzfwiwtx "><span>priyanshubhaskar91
 @gmail.com
 </span></h6></div></div></div></div></div></div></section>
-    
-        <div class='dorik-branding'><span>Built by Priyanshu</span> <a href="" title="Report Abuse">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                <path fill="none" d="M0 0h24v24H0z"/><path d="M5 16v6H3V3h9.382a1 1 0 0 1 .894.553L14 5h6a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1h-6.382a1 1 0 0 1-.894-.553L12 16H5zM5 5v9h8.236l1 2H19V7h-6.236l-1-2H5z"/>
-            </svg></a>
-        </div>
-        <script>
-            var brandFlag = document.querySelector('.dorik-branding a');
-            if(brandFlag) {
-                var url = "mailto:priyanshubhaskar91@gmail.com?subject=Abuse Report " + window.location.origin;
-                brandFlag.addEventListener('click', () =>
-                    brandFlag.setAttribute('href', url)
-                );
-            }
-        </script>
-    
-    <script>window.DORIK_PROJECT_ID = "636e00ccbd605a0011e2dba1";</script>
-    <script>(function popupButton() {
-const popupLinks = document.querySelectorAll(`.popup-btn`);
-popupLinks.forEach(element => {
-let popupId = element.getAttribute('href');
-popupId = popupId.startsWith('#') ? popupId.substring(1) : popupId;
-element.addEventListener('click', () => {
-if (!popupId) return;
-let popupRow = document.getElementById(popupId);
-let closeBtn = document.querySelector(`.close-btn-${popupId}`);
-let popupOverlayEl = popupRow === null || popupRow === void 0 ? void 0 : popupRow.parentElement;
-popupOverlayEl === null || popupOverlayEl === void 0 ? void 0 : popupOverlayEl.classList.add(`row-${popupId}-overlay`);
-popupRow === null || popupRow === void 0 ? void 0 : popupRow.classList.add(`modal-${popupId}-visible`);
-closeBtn === null || closeBtn === void 0 ? void 0 : closeBtn.classList.add('btn-visible');
-});
-});
+            <script>window.DORIK_PROJECT_ID = "636e00ccbd605a0011e2dba1";</script>
+            <script>(function popupButton() {
+  const popupLinks = document.querySelectorAll(`.popup-btn`);
+  popupLinks.forEach(element => {
+    let popupId = element.getAttribute('href');
+    popupId = popupId.startsWith('#') ? popupId.substring(1) : popupId;
+    element.addEventListener('click', () => {
+      if (!popupId) return;
+      let popupRow = document.getElementById(popupId);
+      let closeBtn = document.querySelector(`.close-btn-${popupId}`);
+      let popupOverlayEl = popupRow === null || popupRow === void 0 ? void 0 : popupRow.parentElement;
+      popupOverlayEl === null || popupOverlayEl === void 0 ? void 0 : popupOverlayEl.classList.add(`row-${popupId}-overlay`);
+      popupRow === null || popupRow === void 0 ? void 0 : popupRow.classList.add(`modal-${popupId}-visible`);
+      closeBtn === null || closeBtn === void 0 ? void 0 : closeBtn.classList.add('btn-visible');
+    });
+  });
 })()</script>
-    <script>(function renderPopupModal({
-exitIntentPopup = {},
-onloadPopup = {},
-EXIT_INTENT,
-ONLOAD
+            <script>(function renderPopupModal({
+  exitIntentPopup = {},
+  onloadPopup = {},
+  EXIT_INTENT,
+  ONLOAD
 }) {
-const modalVisibility = popupId => {
-let popupRow = document.getElementById(popupId);
-let closeBtn = document.querySelector(`.close-btn-${popupId}`);
-let popupOverlayEl = popupRow === null || popupRow === void 0 ? void 0 : popupRow.parentElement;
-popupOverlayEl === null || popupOverlayEl === void 0 ? void 0 : popupOverlayEl.classList.add(`row-${popupId}-overlay`);
-popupRow === null || popupRow === void 0 ? void 0 : popupRow.classList.add(`modal-${popupId}-visible`);
-closeBtn === null || closeBtn === void 0 ? void 0 : closeBtn.classList.add('btn-visible');
-};
+  const modalVisibility = popupId => {
+    let popupRow = document.getElementById(popupId);
+    let closeBtn = document.querySelector(`.close-btn-${popupId}`);
+    let popupOverlayEl = popupRow === null || popupRow === void 0 ? void 0 : popupRow.parentElement;
+    popupOverlayEl === null || popupOverlayEl === void 0 ? void 0 : popupOverlayEl.classList.add(`row-${popupId}-overlay`);
+    popupRow === null || popupRow === void 0 ? void 0 : popupRow.classList.add(`modal-${popupId}-visible`);
+    closeBtn === null || closeBtn === void 0 ? void 0 : closeBtn.classList.add('btn-visible');
+  };
 
-document.addEventListener('mouseleave', () => {
-let interativeModal = localStorage.getItem(`${EXIT_INTENT}-${exitIntentPopup.id}-${exitIntentPopup.suffixId}`);
+  document.addEventListener('mouseleave', () => {
+    let interativeModal = localStorage.getItem(`${EXIT_INTENT}-${exitIntentPopup.id}-${exitIntentPopup.suffixId}`);
 
-if (exitIntentPopup.id && !interativeModal) {
-modalVisibility(exitIntentPopup.id);
-}
-});
-window.addEventListener('load', () => {
-let onloadModal = localStorage.getItem(`${ONLOAD}-${onloadPopup.id}-${onloadPopup.suffixId}`);
+    if (exitIntentPopup.id && !interativeModal) {
+      modalVisibility(exitIntentPopup.id);
+    }
+  });
+  window.addEventListener('load', () => {
+    let onloadModal = localStorage.getItem(`${ONLOAD}-${onloadPopup.id}-${onloadPopup.suffixId}`);
 
-if (onloadPopup.id && !onloadModal) {
-modalVisibility(onloadPopup.id);
-}
-});
+    if (onloadPopup.id && !onloadModal) {
+      modalVisibility(onloadPopup.id);
+    }
+  });
 })({
-        EXIT_INTENT: "EXIT_INTENT",
-        ONLOAD: "ONLOAD",
-        exitIntentPopup: undefined,
-        onloadPopup: undefined
-    })</script>
-    <script type="text/javascript"></script>
-    
-    
-</body>
-</html>
+                EXIT_INTENT: "EXIT_INTENT",
+                ONLOAD: "ONLOAD",
+                exitIntentPopup: undefined,
+                onloadPopup: undefined
+            })</script>
+            <script type="text/javascript"></script>
+            
+            
+        </body>
+    </html>
